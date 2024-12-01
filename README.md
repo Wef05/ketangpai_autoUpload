@@ -4,3 +4,8 @@ ChromeDriver本是用来自动测试的工具，这里使用它来模拟用户�
 
 配合ios自带的快捷指令可实现在相册内一键提交（或在goodnote中导出后一键提交）
 https://www.icloud.com/shortcuts/67eae41e71e34640b11d6ff494ccc287
+
+该python程序需要部署在服务器（宿舍里的电脑）中，在快捷指令中通过ssh调用
+
+由于采用ChromeDriver获取需要提交的作业列表速度较慢，所以设置定时更新all_homework.txt可以有更好的体验
+在作业提交完成后会进行一次作业列表的更新，因此该快捷指令显示的运行时间较长.
