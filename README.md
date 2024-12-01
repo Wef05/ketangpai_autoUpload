@@ -1,0 +1,6 @@
+基于ChromeDriver实现的自动提交课堂派作业的程序
+
+ChromeDriver本是用来自动测试的工具，这里使用它来模拟用户操作，实现将指定目录下的照片全部自动上传到课堂派中指定的作业
+
+配合ios自带的快捷指令可实现在相册内一键提交（或在goodnote中导出后一键提交）
+https://www.icloud.com/shortcuts/67eae41e71e34640b11d6ff494ccc287
